@@ -76,7 +76,7 @@ function header() {
   return `
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="/"><span class="logo-mark">pd</span> primedomtech</a>
+      <a class="logo" href="/"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><polyline class="chev chev-1" points="6,16 16,7 26,16"/><polyline class="chev chev-2" points="6,24 16,15 26,24"/></svg> <span class="logo-text">primedomtech</span></a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
         <span></span><span></span><span></span>
       </button>
@@ -99,7 +99,7 @@ function footer() {
   return `
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="footer-brand"><span class="logo-mark">pd</span> primedomtech</p>
+      <p class="footer-brand"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><polyline class="chev chev-1" points="6,16 16,7 26,16"/><polyline class="chev chev-2" points="6,24 16,15 26,24"/></svg> <span class="logo-text" style="font-size:1.05rem">primedomtech</span></p>
       ${footerCats()}
       <p class="footer-note">Some links are affiliate links — if you sign up through them we may earn a commission at no extra cost to you. It never affects how we compare tools.</p>
       <p class="footer-copy">&copy; ${YEAR} primedomtech. All rights reserved.</p>
